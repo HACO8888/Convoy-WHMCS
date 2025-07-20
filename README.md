@@ -320,7 +320,6 @@ function convoy_CreateAccount($params) {
 - 遵循 PSR-12 程式碼風格
 - 添加適當的註解和文檔
 - 確保向後相容性
-- 撰寫單元測試（如適用）
 
 ### 回報問題
 使用 GitHub Issues 回報錯誤：
