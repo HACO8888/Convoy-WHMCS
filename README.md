@@ -66,15 +66,8 @@ wget https://github.com/your-repo/convoy-whmcs-module/archive/main.zip
 ```
 
 ### 2️⃣ 安裝檔案
-```bash
-# 複製主模組檔案
-cp convoy.php /path/to/whmcs/modules/servers/
-
-# 創建模板目錄
-mkdir -p /path/to/whmcs/modules/servers/convoy/templates/
-
-# 複製模板檔案
-cp templates/clientarea.tpl /path/to/whmcs/modules/servers/convoy/templates/
+```
+將 convoy 資料夾全部複製到 /path/to/whmcs/module/server
 ```
 
 ### 3️⃣ 配置 ConvoyPanel
@@ -97,8 +90,8 @@ cp templates/clientarea.tpl /path/to/whmcs/modules/servers/convoy/templates/
 WHMCS 根目錄/
 ├── modules/
 │   └── servers/
-│       ├── convoy.php                    # 主模組檔案
 │       └── convoy/
+│           ├── convoy.php                # 主模組檔案
 │           └── templates/
 │               └── clientarea.tpl        # 客戶端模板
 ```
